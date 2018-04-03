@@ -1,10 +1,12 @@
 package com.huajiaoweather.android.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by YuYang on 2018/4/3 0003.
  */
 
-public class County {
+public class County extends DataSupport{
 
     private int id;
 
@@ -45,4 +47,6 @@ public class County {
     public void setCityId(int cityId) {
         this.cityId = cityId;
     }
+
+
 }
