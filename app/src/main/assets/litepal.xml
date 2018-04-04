@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <litepal>
 
   <dbname value = "huajiao_weather" />
@@ -7,10 +8,7 @@
         <mapping class = "com.huajiaoweather.android.db.Province" />
         <mapping class = "com.huajiaoweather.android.db.City" />
         <mapping class = "com.huajiaoweather.android.db.County" />
-
-
-
-    </list>
+   </list>
 
 
 
